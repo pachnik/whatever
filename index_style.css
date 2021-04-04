@@ -1,0 +1,47 @@
+:root{
+    --color_a: #0e222b;
+    --color_b: #081519;
+    --color_c: #0e343c;
+}
+
+
+header{
+    text-align: center;
+    background-color: var(--color_c);
+    color: white;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: var(--color_b);
+}
+#container {
+    background-color: var(--color_a);
+    width: 900px;
+    margin: 0 auto;
+    padding: 1em;
+    color: white;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    background-color: var(--barva-C);
+    position: sticky;
+    top: 0;
+}
+
+nav a{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    padding: .5em 1em;
+    font-weight: bold;
+}
+
+nav a:hover {
+    border-bottom: white solid 5px;
+}
